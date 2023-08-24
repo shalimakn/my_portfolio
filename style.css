@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+:root{
+    --red: #EF233c;
+}
+
+body{
+    margin:0;
+    height:100vh;
+    background-color: #000814;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.btn-cstm{
+    background-color: #EF233c;
+}
+.text-danger{
+    color:#EF233c;
+}
+
+
+
+ .nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color:red;
+} 
+.h-5{
+    min-height: 450px
+}
+.profile{
+    width: 50%;
+    margin: 20px;
+    filter:drop-shadow(10px 10px 70px white)
+
+}
+.aboutme{
+    min-height: 450px;
+}
+
+.card img{
+    height:300px
+}
+.title {
+    color: #EF233c;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+.icons i{
+    margin-left: 10px;
+    color:var(--red);
+}
